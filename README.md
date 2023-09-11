@@ -25,7 +25,7 @@ Follow this pattern for organization of developed components.
 ├──.editorconfig
 ├──.gitignore
 ├──.CHANGELOG.md
-├──.gulpfile.js
+├──gulpfile.js
 ├──README.md
 └──package.json
  
