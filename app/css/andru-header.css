@@ -1,0 +1,30 @@
+.andru-header{
+    height: 50px;
+    background-color: rgb(0,0,0.9);
+
+}
+span {
+    color: white;
+    font-size: 20px; 
+  }
+.menu-container {
+    font-family: 'Monospace', monospace;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin: 0 35px;
+    cursor: pointer;
+    color: bisque;
+}
+
+.menu-icon {
+    margin: 0 35px;
+}
+.tariff {
+    border: 2px solid #f2efef; 
+    padding: 5px 5px; 
+    border-radius: 3px; 
+}
