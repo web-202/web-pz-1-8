@@ -11,6 +11,10 @@ body, html {
     justify-content: center;
     align-items: center;
     position: relative;
+    background-image: url('../img/cinema-lovers-day-watch-any-movie-at-just-rs-99-details-inside.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .huvv-page {
     background-color: rgb(236, 240, 244);

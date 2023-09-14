@@ -1,0 +1,39 @@
+section > img {
+  display: block;
+}
+
+.huvv-add {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+.huvv-add div {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  height: 85%;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+.huvv-add img {
+  width: 13.5rem;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+.huvv-add img:hover {
+  animation-name: img-animation;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes img-animation {
+  from {
+    box-shadow: 0;
+  }
+  to {
+    box-shadow: 0 1.5rem 3rem 1rem hsla(0, 0%, 0%, 0.25);
+  }
+}/*# sourceMappingURL=add.css.map */

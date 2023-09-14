@@ -1,0 +1,43 @@
+$base-size: 100%;
+$base-color: hsla(0, 0%, 0%, 0.25);
+
+section > img {
+    display: block;
+}
+
+.huvv-add {
+    width: $base-size;
+    height: $base-size / 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1.5rem 3rem -0.75rem $base-color;
+    div {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(255, 255, 255);
+        width: $base-size / 5;
+        height: $base-size * 0.85;
+        box-shadow: 0 1.5rem 3rem -0.75rem $base-color;
+    }
+    img {
+        width: 13.5rem;
+        height: $base-size;
+        transition: transform 0.3s ease;
+    }
+    img:hover {
+        width: 13.5rem;
+        height: $base-size;
+        animation-name: img-animation;
+        animation-duration: 200ms;
+        animation-fill-mode: forwards;
+    }
+}
+@keyframes img-animation {
+    from{
+        box-shadow: 0;
+    }
+    to{
+        box-shadow: 0 1.5rem 3rem 1rem $base-color;
+    }
+}

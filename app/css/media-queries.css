@@ -1,0 +1,32 @@
+@media (max-width: 1400px) {
+    .huvv-page {
+        width: 100vh;
+    }
+    .huvv-header{
+        width:100vh;
+    }
+    .huvv-header div {
+        font-size: 12px;
+    }
+    .huvv-nav-bar {
+        padding: 20px;
+        margin-left: 20px;
+    }
+    .huvv-header button {
+        margin: 15px;
+        height: 20px;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .huvv-header a {
+        padding: 5px;
+    }
+    .huvv-add img {
+        height: 100%;
+        width: 100%;
+    }
+    .huvv-add div {
+        height: 70%;
+        width: 20%;
+    }
+}

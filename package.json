@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Group282/pz-1-8/issues"
   },
-  "homepage": "https://github.com/Group282/pz-1-8#readme"
+  "homepage": "https://github.com/Group282/pz-1-8#readme",
+  "dependencies": {
+    "sass": "^1.67.0"
+  }
 }

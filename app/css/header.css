@@ -4,9 +4,10 @@
     width: 120vh;
     display: flex;
     flex-direction: row;
-    position:fixed;
+    position: fixed;
     z-index: 1;
 }
+
 .huvv-header button {
     margin: 10px;
     height: 30px;
@@ -14,16 +15,20 @@
     border-radius: 25px;
     color: aliceblue;
     background-color: rgb(25, 25, 20);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
-.huvv-header button:hover{
+
+.huvv-header button:hover {
     animation-name: change-log-status;
     animation-duration: 200ms;
     animation-fill-mode: forwards;
 }
-.huvv-log{
+
+.huvv-log {
     margin-left: 36px;
 }
+
 .huvv-logo {
     margin-top: 10px;
     margin-left: 50px;
@@ -63,12 +68,14 @@
         color: rgb(40, 95, 142);
     }
 }
+
 @keyframes change-log-status {
-    form{
+    form {
         background-color: rgb(25, 25, 20);
         color: aliceblue;
     }
-    to{
+
+    to {
         color: rgb(25, 25, 20);
         background-color: aliceblue;
     }

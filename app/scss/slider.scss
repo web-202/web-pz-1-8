@@ -15,11 +15,11 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-}
-.slider img {
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
+    img {
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: cover;
+    }
 }
 .huvv-slider-nav {
     display: flex;
@@ -29,15 +29,15 @@
     left: 50%;
     transform: translateX(-50%);
     z-index:1;
-}
-.huvv-slider-nav a {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-}
-.huvv-slider-nav a:hover {
-    opacity: 100%;
+    a {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    }
+    a:hover {
+        opacity: 100%;
+    }
 }
