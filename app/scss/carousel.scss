@@ -23,7 +23,7 @@
     color: white;
     background-color: black;
     text-align: center;
-    font-width: bold;
+    font-weight: bold;
   }
 
   .prev {
@@ -32,15 +32,6 @@
 
   .next {
     right: 0.8rem;
-  }
-
-  .numbertext {
-    padding: 0.5rem 0.75rem;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    border-radius: 0.9375rem;
-    font-size: 0.875rem;
   }
 
   .image {

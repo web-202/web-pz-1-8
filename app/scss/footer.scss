@@ -1,0 +1,32 @@
+footer {
+  background-color: $footer-background-color;
+  color: white;
+  margin-top: 5vh;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 1.5vh 0;
+  }
+
+  .footer-list {
+    display: flex;
+    li {
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      a:hover{
+        color: red
+      }
+      margin: 0 0.5vw;
+    }
+  }
+
+  .license {
+    color: gray;
+    font-size: 14px;
+  }
+}
