@@ -1,0 +1,65 @@
+header {
+  background-color: $header-background-color;
+  color: $header-color;
+  opacity: 90%;
+
+  position: fixed;
+  width: 100%;
+
+  .btn {
+    color: white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+
+  button {
+    background: none;
+    border: none  ;
+    margin: 0 0.5rem;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    .title {
+      font-weight: bold;
+      font-size: 24px;
+    }
+  }
+
+  nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .navigation-list {
+    display: flex;
+    margin: 0 1rem;
+    li {
+      margin: 0 0.5rem;
+    }
+  }
+
+  .navigation-actions {
+    div {
+      margin: 0 0.4rem;
+    }
+
+    .login {
+      font-weight: bold;
+    }
+
+    .lang {
+      color: gray;
+    }
+  }
+}
