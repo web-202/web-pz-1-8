@@ -1,4 +1,8 @@
 @media (min-width: 0px) {
+  footer {
+    display: none;
+  }
+
   .navigation-list {
     li {
       display: none;
@@ -22,6 +26,14 @@
   .navigation-actions{
     display: flex;
   }
+
+  footer {
+    display: block;
+
+    li {
+      display: none;
+    }
+  }
 }
 
 @media (min-width: 1200px) {
@@ -30,10 +42,20 @@
     justify-content: center;
   }
 
+  footer {
+    li {
+      display: block;
+    }
+  }
+
   .navigation-list {
     li {
       display: block;
     }
+  }
+
+  footer {
+    display: block;
   }
 }
 
