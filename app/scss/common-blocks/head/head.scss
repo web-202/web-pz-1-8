@@ -1,0 +1,14 @@
+.head {
+  font-family: "Helvetica", sans-serif;
+  background-color: rgb(19, 19, 19);
+  max-width: 1400px;
+  height: 49px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  &__logo {
+    padding: 19px 0 19px 68px;
+    margin-right: 28px;
+  }
+}

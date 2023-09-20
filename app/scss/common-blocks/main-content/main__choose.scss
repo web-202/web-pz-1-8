@@ -1,0 +1,36 @@
+.main__choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  min-height: 165px;
+  margin: 15px 0 67px 0;
+
+  .choose {
+    width: 221px;
+    height: 100px;
+    position: relative;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      transition: filter 0.3s ease;
+      padding-right: 15px;
+    }
+
+    &:hover img {
+      filter: brightness(80%);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.642);
+      opacity: 0;
+    }
+
+    &:hover::before {
+      opacity: 1;
+    }
+  }
+}

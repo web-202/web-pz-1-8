@@ -1,0 +1,13 @@
+@import "variables";
+@import "reset";
+@import "media-query";
+@import "common-blocks/head/head";
+@import "common-blocks/head/head__list";
+@import "common-blocks/head/head__content-right";
+@import "common-blocks/main-content/main-content";
+@import "common-blocks/main-content/main__choose";
+@import "common-blocks/main-content/main__channels";
+
+body{
+    font-family: "Helvetica", sans-serif;
+}

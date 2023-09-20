@@ -1,0 +1,113 @@
+.main__channels {
+  margin: 20px auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 940px;
+  position: relative;
+
+  &-title {
+    text-decoration: none;
+    color: #333;
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: 450;
+    text-transform: none;
+    &:hover {
+      color: rgb(255, 47, 0);
+    }
+  }
+  &-boxes {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+  }
+  &-box__ether {
+    width: 72px;
+    height: 19px;
+    color: #fff;
+    background-color: #ff3d3ddd;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 12px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .dot {
+    font-size: 15px;
+  }
+  &-box {
+    position: relative;
+    margin-right: 15px;
+
+    &__description {
+      margin: 6px 0 6px;
+      max-height: 54px;
+      margin: 5px 0 0;
+      overflow: hidden;
+      color: #333;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 18px;
+      &-date {
+        height: 18px;
+        margin-top: 2px;
+        color: #a6a6a6;
+        font-size: 12px;
+        font-weight: 450;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .thumbnail-link {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .thumbnail-link img {
+      width: 100%;
+      transition: opacity 0.3s;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.373);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.3s;
+    }
+
+    .overlay:hover {
+      opacity: 1;
+    }
+
+    .play-icon {
+      font-size: 25px;
+      color: white;
+      margin-bottom: 10px;
+    }
+    .description-text {
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .notEther {
+      background-color: #a1a1a1a3;
+    }
+  }
+}
