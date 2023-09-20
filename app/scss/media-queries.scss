@@ -1,0 +1,53 @@
+@media (min-width: 0px) {
+  .navigation-list {
+    li {
+      display: none;
+    }
+  }
+
+  .main-container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .navigation-actions{
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .navigation-actions{
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-list {
+    li {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-container {
+    width: 1600px;
+  }
+
+  header {
+    width: 1600px;
+  }
+}

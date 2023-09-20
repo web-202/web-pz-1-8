@@ -4,7 +4,12 @@ header {
   opacity: 90%;
 
   position: fixed;
-  width: 100%;
+  z-index: 1;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
   .icon {
     height: 2rem;
@@ -42,7 +47,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .navigation-list {
