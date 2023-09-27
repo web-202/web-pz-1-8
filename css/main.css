@@ -1,5 +1,97 @@
-.shao-header{
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.9);
     height: 50px;
-    background-color: rgba(0,0,0,.9);
+    display: flex;
+    background-position: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box ;
+    background-size: cover;
     
+
+    
+}
+
+.menu{
+    height: 12px;
+    display: flex;
+    align-items: center;
+   
+}
+.logo{
+    color: aliceblue;
+    padding-top: 45px;
+}
+nav{
+    flex: 1;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;   
+}
+nav ul li a:hover{
+    background-color: #323030; 
+}
+
+.button{
+    outline: 0.5px solid white;
+    background-color: rgba(0, 0, 0, 0.9) ;
+    padding-top:65px ;
+    border: 1.5px;
+    margin-left: 260px;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-top: 38px;
+    height: 30px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button a{
+    color: aliceblue;
+    
+
+}
+.button:hover{
+    background-color: #d1cfcf;
+}
+.shao-lengueage{
+    color: aliceblue;
+    padding-top: 45px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.shao-lengueage:hover{
+    background-color: #323030; 
+}
+.shao-enter{
+    color: aliceblue;
+    padding-top: 45px;
+   
+}
+.shao-enter:hover{
+    background-color: #323030; 
+}
+.menu{
+    display: flex;
+}
+ul{
+    padding-top: 45px;
+   
+
 }

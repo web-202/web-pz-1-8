@@ -1,0 +1,109 @@
+.shao-channel{
+    height: 410px;
+    padding-top: 35px;
+    
+}
+.channels {
+    max-width: 100%;
+    display: flex;
+    margin: 0 45px;
+    height: 150px;
+    width: 350px;
+    padding-top: 10px;
+}
+.channel{
+    display: flex;
+    padding-top: 49px;
+    position: relative;
+    margin: 0 65px;
+    right: 130px;
+    
+}
+ .channels h4{
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    
+    display: inline; 
+    white-space: nowrap;
+    height: 15px;
+    left: 50px;
+}
+.text-chal li{
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    
+    
+}
+.text-chal a{
+    color: black;
+    text-size-adjust: 5px;
+    font-size: 13px;
+   
+    
+}
+.text-chal{
+    font-size: 20px;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: -130px;
+    
+}
+
+.channels .buttonleft{
+    color:rgb(0, 0, 0);
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    margin: 0 1444px;
+   
+}
+.channels .buttonright{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    margin: 0 1490px;
+
+   
+}
+.buttonleft:hover{
+    background-color: #0d0d0d;
+    
+}
+.buttonright:hover{
+    background-color: #0d0d0d;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+.shao-slider{
+    height: 550px;
+    position: relative;
+    clear: both;
+    background-color: #717171;
+    margin: auto;
+  
+    
+    
+}
+.slide {
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.navigation-button{
+    text-align: center;
+   
+}
+.dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 250px;
+    top: 50%;
+    left: 50%;   
+}
+.active {
+    background-color: #717171;
+}
+.dot:hover{
+    background-color: #0d0d0d;
+}
+  
+
+.button-left{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45px;
+    height: 50px;
+    margin: 0 -750px;
+    border: 0px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+   opacity: 0;
+}
+.button-right{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45px;
+    height: 50px;
+    margin: 0 740px;
+    border: 0px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    opacity: 0;
+}
+.button-left:hover{
+    background-color: #0d0d0d;
+    opacity: 1;
+}
+.button-right:hover{
+    background-color: #0d0d0d;
+    opacity: 1;
+}
+.slide:hover{
+    opacity: 0.8;
+}

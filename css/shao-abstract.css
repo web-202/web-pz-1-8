@@ -1,0 +1,54 @@
+.shao-abstract{
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  
+}
+text{
+    font-family: 'Cabin', sans-serif;
+    padding: 15px;
+    font-size: 15px;
+   
+}
+.shao-abstact a{
+    font-family: 'Cabin', sans-serif;
+    padding: 15px;
+    font-size: 10px; 
+    margin: 0 30px;
+}
+h4{
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 85px;
+    
+
+   
+   
+}
+.abstract1{
+    width: 350px;
+    padding-top: 15px;
+    margin: 0 55px;
+
+}
+.abstract2{
+    width: 350px;
+    margin: 0 353px;
+    position: relative;
+    top :-37px;
+
+
+}
+.abstract3{
+    width: 350px;
+    margin: 0 795px;
+    position: relative;
+    top :-78px;
+}
+.abstract4{
+    width: 350px;
+    margin: 0 1030px;
+    position: relative;
+    top :-115px;
+}
