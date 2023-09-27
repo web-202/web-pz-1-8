@@ -1,0 +1,18 @@
+main{
+
+    background-color: #adadad;
+
+    .addition-content{
+        display: flex;
+        justify-content: center;
+        background-color: #adadad;
+        
+        .img-addition-content{
+            margin: 10px;
+        }
+
+        .img-addition-content:hover{
+            filter: brightness(0.5);
+        }
+    }
+}

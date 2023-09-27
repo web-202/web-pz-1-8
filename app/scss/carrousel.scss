@@ -1,0 +1,55 @@
+.carrousel-menu{
+    position: relative;
+
+    .right-scroll-carrousel{
+        display: none;
+    }
+
+    .left-scroll-carrousel{
+        display: none;
+    }
+
+    .item:nth-child(4){
+        display: block;
+    }
+
+    ul{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        margin: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 10px;
+        color: white;
+        
+        li{
+            list-style-type: disc;
+            margin-left: 20px;
+            color: hsla(0,0%,100%,.15);
+            font-size: 40px;
+        }
+    }
+}
+
+
+
+.carrousel-menu:hover{
+    .right-scroll-carrousel{
+        display:block;
+        position: absolute;
+        top: 42%;
+        right: 0;
+        padding-right: 50px;
+        color: white;
+    }
+
+    .left-scroll-carrousel{
+        display:block;
+        position: absolute;
+        top: 42%;
+        left: 0;
+        padding-left: 50px;
+        color: white;
+    }
+}

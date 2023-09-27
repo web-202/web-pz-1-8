@@ -1,0 +1,92 @@
+header{
+  background-color: $header-background-color;
+  color: $header-text-color;
+  
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+
+  .menu-header{
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    .log-in:hover{
+      color: red;
+    }
+  }
+
+  .logo-megogo{
+    font-size: 20px; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100; 
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  
+    li{
+      margin-left: 20px;
+      
+      svg{
+        color: gray;
+      }
+
+      svg:hover{
+        color:orange;
+      }
+    }
+
+    li:hover{
+      color: orange;
+    }
+  }
+
+
+
+  .right-header{
+    display: flex;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    
+    div{
+      margin-left: 20px
+    }
+
+    svg{
+      margin-left: 20px;
+    }
+    
+    svg:hover{
+      color:red;
+    }
+
+    .language{
+      color: gray;
+    }
+
+    .language:hover{
+      color: white;
+    }
+
+    input{
+      border: 1px solid white;
+      background-color: black;
+      color: $header-text-color;
+      padding: 10px;
+      word-spacing: 2px;
+    }
+
+    input:hover{
+      border: 1px solid red;
+      color: red;
+    }
+  }
+}
