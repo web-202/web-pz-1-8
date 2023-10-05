@@ -2,7 +2,7 @@
   "name": "pz-1-8",
   "version": "1.0.0",
   "description": "\"# pz-1-8\"",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Group282/pz-1-8.git"
   },
-  "author": "",
+  "author": "Artem_Voznuy",
   "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.66.1"
+  },
   "bugs": {
     "url": "https://github.com/Group282/pz-1-8/issues"
   },
