@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    width: 80%;
+    margin: 0 8%;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    font-size: 16px;
+    padding: 0 0 0 10%;
+    box-shadow: 0 0 100px 100px rgba(0, 0, 0, 0.1);
+
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header li {
+    cursor: pointer;
+    list-style: none;
+}
+
+.manage {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 12%;
+    gap: 20px;
+}
+
+.manage button {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.manage button:hover {
+    color: red;
+    border-color: red;
+}
+
+.manage p {
+    color: gray;
+    cursor: pointer;
+}
+
+.manage p:hover {
+    color: white;
+}
+
+.manage svg {
+    width: 25px;
+    height: 25px;
+    fill: white;
+    cursor: pointer;
+}
+
+.manage svg:hover {
+    color: red;
+}
+
+.manage a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.logo_megogo {
+    cursor: pointer;
+    padding: 0 0 0 20px;
+    width: auto;
+    max-height: 100%;
+}
+
+.main {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 100px 100px rgba(0, 0, 0, 0.1);
+
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    transition: all .3s ease;
+    .navigation{
+        visibility: hidden;
+    }
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding: 0 70px;
+    z-index: 1;
+}
+
+.navigation svg {
+    color: white;
+    width: 75px;
+    height: 75px;
+}
+
+.navigation svg:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0, .4);
+
+}
+
+.slider img {
+    cursor: pointer;
+    height: auto;
+}
+.slider:hover{
+    .navigation{
+        visibility: visible;
+    }
+}
+
+.tariffs {
+    display: flex;
+    gap: 40px;
+    padding: 20px 0 20px 10%;
+    align-items: center;
+    align-content: center;
+}
+
+.tariffs img {
+    cursor: pointer;
+}
+
+.stream {
+    padding: 30px 0 0 0;
+    display: flex;
+    gap: 20px;
+}
+
+.collection {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    padding :5px 0 0 0;
+    overflow: hidden;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.description p{
+    font-size: 12px;
+    padding:5px 0 0 0;
+    color: gray;
+}
+.tvNow {
+    padding: 50px 0 0 10%;
+    font-size: 20px;
+    background-color: #F7F8F9;
+    gap: 20px;
+}
+.header_tv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.manage_scroll{
+
+    display: flex;
+    padding: 0 12.5% 0 0;
+    cursor: pointer;
+}
+.manage_scroll svg{
+    width: 42px;
+    height: 32px;
+    border:1px solid gray;
+}
