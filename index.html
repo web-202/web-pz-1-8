@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stili.css">
+    <title>Melnik</title>
+</head>
+<body>
+    <div class="">
+        <div class="nav">
+            <div class="section">
+                <div class="container-header">
+                    <div class="logo"><img src="https://s6.vcdn.biz/static/132364661/logox2.png/pt/r0x0" alt=""></div>
+                    <ul class="menu">
+                        <li>Телеконали</li>
+                        <li>Фільми</li>
+                        <li>Мультфільми</li>
+                        <li>Серіали</li>
+                        <li>Шоу</li>
+                        <li>Спорт</li>
+                        <li>Навчання</li>
+                    </ul>
+                    <ul class="button-menu">
+                        <li class="bold">Таріфи</li>
+                        <li>Увійти</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="https://s1.vcdn.biz/static/f/5225011651/image.jpg/pt/r0x0" alt="Image 1"></div>
+            <div class="slide"><img src="https://s1.vcdn.biz/static/f/5932867051/image.jpg/pt/r0x0" alt="Image 2"></div>
+            <div class="slide"><img src="https://s1.vcdn.biz/static/f/6528718081/image.jpg/pt/r0x0" alt="Image 3"></div>
+            <div class="slide"><img src="https://s1.vcdn.biz/static/f/6557460211/image.jpg/pt/r0x0" alt="Image 4"></div>
+            <div class="slide"><img src="https://s1.vcdn.biz/static/f/6597081991/image.jpg/pt/r0x0" alt="Image 5"></div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-button" id="prevBtn">Предыдущий</button>
+            <button class="slider-button" id="playBtn">Воспроизвести</button>
+            <button class="slider-button" id="nextBtn">Следующий</button>
+        </div>
+        <div class="slider-pagination">
+            <span id="currentSlide">1</span> / 5
+        </div>
+ </div>
+<div class="">
+    <div class="ser">
+        <div class="section">
+            <div class="container-carts">
+    <div class="cart"><img src="https://s6.vcdn.biz/static/f/6475184601/image.jpg/pt/r220x100" alt=""></div>
+    <div class="cart"><img src="https://s5.vcdn.biz/static/f/6338339681/image.jpg/pt/r220x100" alt=""></div>
+    <div class="cart"><img src="https://s3.vcdn.biz/static/f/6371431401/image.jpg/pt/r220x100" alt=""></div>
+    <div class="cart"><img src="https://s6.vcdn.biz/static/f/6475184601/image.jpg/pt/r220x100" alt=""></div>
+    <div class="cart"><img src="https://s6.vcdn.biz/static/f/6475184601/image.jpg/pt/r220x100" alt=""></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="">
+    <div class="news">
+        <div class="section">
+            <div class="news-header-text">
+                <h1>Зараз на ТБ</h1>
+            </div>
+            <div class="container-news">
+                
+                <div class="container-new">
+                    <img src="https://s4.vcdn.biz/static/f/6444702571/image.jpg/pt/r600x0" alt="">
+                    <h1>Інформаційний марафон</h1>
+                    <h2>Акція максимальна</h2>      
+                </div>
+                <div class="container-new">
+                    <img src="https://s6.vcdn.biz/static/f/5336915541/image.jpg/pt/r600x0" alt="">
+                    <h1>Інформаційний марафон</h1>
+                    <h2>Акція максимальна</h2>
+                </div>
+                <div class="container-new">
+                    <img src="https://s6.vcdn.biz/static/f/5336915541/image.jpg/pt/r600x0" alt="">
+                    <h1>Інформаційний марафон</h1>
+                    <h2>Акція максимальна</h2>
+                </div>
+                <div class="container-new">
+                    <img src="https://s2.vcdn.biz/static/f/2169472241/image.jpg/pt/r600x0" alt="">
+                    <h1>Інформаційний марафон</h1>
+                    <h2>Акція максимальна</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const prevButton = document.getElementById('prevBtn');
+const nextButton = document.getElementById('nextBtn');
+const playButton = document.getElementById('playBtn');
+const currentSlideIndicator = document.getElementById('currentSlide');
+let isPlaying = false;
+let interval;
+
+function showSlide(slideIndex) {
+    slides[currentSlide].style.display = 'none';
+    slides[slideIndex].style.display = 'block';
+    currentSlide = slideIndex;
+    currentSlideIndicator.textContent = (currentSlide + 1).toString();
+}
+
+function nextSlide() {
+    const nextIndex = (currentSlide + 1) % slides.length;
+    showSlide(nextIndex);
+}
+
+function prevSlide() {
+    const prevIndex = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(prevIndex);
+}
+
+function togglePlay() {
+    if (isPlaying) {
+        clearInterval(interval);
+        playButton.textContent = 'Воспроизвести';
+    } else {
+        interval = setInterval(nextSlide, 3000); 
+        playButton.textContent = 'Пауза';
+    }
+    isPlaying = !isPlaying;
+}
+
+nextButton.addEventListener('click', nextSlide);
+prevButton.addEventListener('click', prevSlide);
+playButton.addEventListener('click', togglePlay);
+
+togglePlay();
+
+</script>
+</body>
+</html>
