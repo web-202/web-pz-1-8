@@ -1,0 +1,117 @@
+.header__navigation {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1260px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__navigation-list {
+    display: flex;
+    flex: 1;
+}
+
+.header__megogo-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.header__navigation-element {
+    height: 100%;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.header__navigation-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.header__dropdown-content {
+    display: none;
+    cursor: auto;
+    padding: 17px 10px;
+    width: 220px;
+    position: absolute;
+    top: 100%;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.header__dropdown-link {
+    height: min-content;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.more-dots {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.header__widgets {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__tariffs-link {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.header__search-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__change-language {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.header__login-btn {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.header__navigation-element:hover {
+    background-color: #FFFFFF;
+}
+
+.header__navigation-element:hover > .header__navigation-link,
+.header__dropdown-link:hover,
+.header__login-btn:hover,
+.header__tariffs-link:hover {
+    color: #FF3300;
+    border-color: #FF3300;
+}
+
+.header__change-language:hover{
+    color: white;
+}
+
+.header__navigation-element:hover .more-dots {
+    fill: #FF3300;
+}
+
+.header__navigation-element:hover > .header__dropdown-content {
+    display: flex;
+}

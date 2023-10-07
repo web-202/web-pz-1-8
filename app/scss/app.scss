@@ -1,0 +1,19 @@
+@import "reset";
+@import "media-queris";
+
+//(start) Header style
+@import "./common.blocks/header/header";
+@import "./common.blocks/header/navigation/navigation";
+//(end) Header style
+
+//Carousel style
+@import "common.blocks/main/carousel/carousel";
+@import "common.blocks/main/category/category";
+@import "common.blocks/main/tv/tv";
+
+.page {
+    max-width: 1600px;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+}
