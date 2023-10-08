@@ -106,7 +106,7 @@
 
 
   .main{
-    background-color: #fff;
+    background-color: #f203d2;
     display: block;
     margin: -1px auto;
     width: 100%;
@@ -211,6 +211,7 @@
   padding-right: 20px;
   margin-top: 50px;
   width: 1230px;
+  background-color: #f10af5;
 }
 .title_tmain{
   font-style: normal;
