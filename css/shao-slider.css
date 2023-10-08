@@ -4,7 +4,7 @@
     clear: both;
     background-color: #717171;
     margin: auto;
-  
+    
     
     
 }
@@ -13,6 +13,7 @@
     width: 100%;
     background-size: cover;
     display: flex;
+   
 }
 
 .navigation-button{
@@ -41,37 +42,47 @@
   
 
 .button-left{
-    color: aliceblue;
+    color:aliceblue;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 45px;
     height: 50px;
-    margin: 0 -750px;
+    margin: 0 -740px;
     border: 0px solid rgba(0, 0, 0, 0.5);
     background-color: transparent;
-   opacity: 0;
+    opacity: 0;
+   
 }
 .button-right{
     color: aliceblue;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 5%;
     width: 45px;
     height: 50px;
-    margin: 0 740px;
+    margin: 0 1350px;
     border: 0px solid rgba(0, 0, 0, 0.5);
     background-color: transparent;
     opacity: 0;
+    
 }
 .button-left:hover{
     background-color: #0d0d0d;
-    opacity: 1;
 }
 .button-right:hover{
-    background-color: #0d0d0d;
-    opacity: 1;
+    background-color: #0d0d0d; 
+    
 }
-.slide:hover{
+.slide:hover {
     opacity: 0.8;
 }
+.sliders:hover .button-left{
+    opacity: 1;
+}
+.sliders:hover .button-right{
+    opacity: 1;
+}
+
+
+
