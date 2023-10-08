@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.header_inner {
+  max-width: inherit;
+  width: inherit;
+  position: absolute;
+  height: inherit;
+  display: block;
+}
+
+.container_header_flex {
+  background-color: #202020;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.mggLogo {
+  position: relative;
+  display: inline-flex;
+  max-width: 150px;
+  top: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: aliceblue;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.header_nav {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.menu_list {
+  display: flex;
+  gap: 15px;
+}
+
+.menu_text {
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu_img {
+  width: 25px;
+  height: 25px;
+  margin-top: -3px;
+}
+
+.header_userWidgets {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  gap: 20px;
+  float: right;
+  margin-left: 200px;
+}
+
+.header_auth {
+  color: aliceblue;
+  border: 2px solid white;
+  width: 125px;
+  height: 35px;
+  margin-top: -5px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.header_auth_link {
+  text-align: center;
+}
+
+.search_link {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+.dropdown_language {
+  color: #616060;
+}
+
+.enter_link {
+  color: aliceblue;
+}
+
+.main {
+  background-color: #fff;
+  display: block;
+  margin: -1px auto;
+  width: 100%;
+  min-height: 100%;
+  padding: 1px 0 0;
+  max-width: 1600px;
+  box-shadow: -5px 0px 40px rgba(0, 0, 0, 0.5), 5px 0px 40px rgba(0, 0, 0, 0.5);
+}
+
+.slider {
+  margin-top: 50px;
+}
+
+.photo {
+  width: 100%;
+  position: relative;
+}
+
+.slider_photo {
+  position: relative;
+}
+
+.sale {
+  background-color: rgb(247, 41, 41);
+  color: #fff;
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 80px;
+}
+
+.sale_text {
+  text-align: center;
+}
+
+.carousel_indicators {
+  bottom: 25px;
+  left: 50%;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  font-size: 0;
+}
+
+.carousel_slider {
+  width: 8px;
+  height: 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: hsla(0, 0%, 0%, 0.15);
+  border-radius: 100%;
+  box-shadow: 0 0 1px rgba(255, 0, 0, 0.15);
+  font-size: 16px;
+}
+
+.dot-container {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  margin: 0 5px;
+  border-radius: 100%;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+.second_main {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px 0;
+  margin-top: -4px;
+}
+
+.container_count {
+  display: flex;
+  justify-content: center;
+}
+
+.container_1_photo {
+  margin: 0 10px;
+}
+
+.photo1 {
+  height: 100px;
+}
+
+.container_last {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  width: 1230px;
+}
+
+.title_tmain {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 450;
+  text-transform: none;
+}
+
+.loader_photo {
+  display: flex;
+  margin-top: 30px;
+}
+
+.loader_photo_container {
+  margin: 0 10px;
+  margin-left: 0;
+}
+
+.photo2 {
+  width: 292px;
+  height: 168px;
+}
+
+.loader_title {
+  min-height: 54px;
+  margin: 5px 0 0;
+  overflow: hidden;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.data {
+  height: 18px;
+  margin-top: -10px;
+  color: #ababab;
+  font-size: 12px;
+  font-weight: 450;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

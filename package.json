@@ -12,6 +12,12 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.66.1"
+  },
   "bugs": {
     "url": "https://github.com/Group282/pz-1-8/issues"
   },
