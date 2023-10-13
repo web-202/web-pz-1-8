@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+nav {
+    background-color: #181818;
+    overflow: hidden;
+    align-items: center;
+    color: whitesmoke;
+}
+.content{
+    margin: 0px 80px;
+}
+.bar{
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    &__logo{
+        font-size: 20px;
+        color: whitesmoke;
+        align-items: center;
+    }
+    &__menu{
+        display: flex;
+        color: whitesmoke;
+        align-items: center;
+        li{
+            margin: 0px 15px;
+        }
+        
+    }
+    &__menu__button{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+    }
+    &__second__btn{
+        border: 1px solid gray;
+        padding: 10px 20px;
+        background: #181818;
+        align-items: center;
+        color: whitesmoke;
+        margin: 0px 20px;
+        
+    }
+}
+.slider{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    &__container {
+        display: flex;
+        overflow: hidden;
+    }
+    &__img{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .prev-button,
+    .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    }
+    .prev-button {
+        left: 0;
+    }
+    
+    .next-button {
+        right: 0;
+    }
+
+}
+.box{
+    width: 100%;
+    background: gainsboro;
+    &__carts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__cart{
+        margin: 0px 10px;
+    }
+}
+.news{
+    margin-top: 40px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    &__text{
+        width: 100%;
+        font-size: 22px;
+        margin-bottom: 20px;
+        display: block;
+        margin: 20px 15px;
+    }
+    &__ser{
+        width: 100%;
+        display: flex;
+    }
+    &__content{
+        margin: 0px auto;
+        img{
+            width: 260px;
+        }
+        h1{
+            font-size: 17px;
+            margin-top: 10px;
+        }
+        h2{
+            font-size: 12px;
+            margin-top: 5px;
+            color: gray;
+        }
+    }
+}
