@@ -1,0 +1,107 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #181818;
+    overflow: hidden;
+    align-items: center;
+    color: whitesmoke;
+    padding: 15px 15px;
+}
+.margin{margin: 0px 50px;}
+
+.navs{
+    display: flex;
+    width: 100%;
+    &__logo{
+        font-size: 25px;
+        a{
+            color: whitesmoke;
+        }
+    }
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin: 0px 25px;
+    color: whitesmoke;
+    a{
+        margin: 0px 15px;
+        color: whitesmoke;
+    }
+    &__btn{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        li{
+            margin: 0 25px;
+        }
+    }
+    &__border{
+        border: 0.5px solid whitesmoke;
+        padding: 10px 10px;
+        border-radius: 4px;
+    }
+}
+.ser{
+
+    &__cont {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    &__slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    &__img {
+        flex: 0 0 100%;
+        min-width: 100%;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}
+.wedgets{
+    width: 100%;
+    background: rgb(200, 200, 200);
+
+}
+.carts{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    &__cart{
+        display: flex;
+        align-items: center;
+        img{
+            padding: 0px 20px;
+        }
+    }
+}
+
+.h1-text{font-size: 30px;margin-bottom: 15px;margin-top: 15px; }
+.cartss{
+    display: flex;
+    img{
+        width: 300px;
+    }
+    &__new{
+        margin: 0 12px;
+        
+    }
+    h1{
+        font-size: 21px;
+    }
+    
+}
