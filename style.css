@@ -1,0 +1,120 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #181818;
+    overflow: hidden;
+    align-items: center;
+    color: whitesmoke;
+    padding: 15px 15px;
+}
+.margin{margin: 0px 50px;}
+.navs{
+    display: flex;
+    width: 100%;
+}
+a{
+    color: whitesmoke;
+}
+.megogo{
+    font-size: 25px;
+  
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin: 0px 25px;
+}
+.menu a{
+    margin: 0px 15px;
+}
+.btn{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    
+}
+.btn li{
+    margin: 0 25px;
+}
+.border{
+    border: 0.5px solid whitesmoke;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+.slider-cont {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .img {
+            flex: 0 0 100%;
+            min-width: 100%;
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .slider-buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .slider-button {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #333;
+            border-radius: 50%;
+             margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .slider-button.active {
+            background-color: #bf573f55; /* Цвет активной кнопки */
+}
+.wedgets{
+    width: 100%;
+    background: rgb(200, 200, 200);
+
+}
+.carts{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.cart img{
+    padding: 0px 20px;
+}
+.carts-news{
+    display: flex;
+}
+.cart-news img{
+    width: 300px;
+    
+}
+.cart-news{
+    margin: 0 12px;
+}
+.cart-news h1{
+    font-size: 20px;
+}
