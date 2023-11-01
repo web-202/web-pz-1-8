@@ -1,0 +1,40 @@
+.news{
+    &__text{
+        
+        font-size: 22px;
+        margin-bottom: 15px;
+        
+    }
+    padding: 15px 0;
+    
+
+    &__container{
+        display: block;
+        margin: 0px 15px;
+    }
+    &__container img{
+        width: 260px;
+    }
+    &__container h1{
+        text-align: left;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    &__container h2{
+       text-align: left;
+        font-size: 12px;
+        margin-top: 5px;
+        color: gray;
+    }
+    &__ser{
+        display: flex;
+    }
+}
+@media (max-width: $breakpoint480) {
+   .news{
+    &__container{
+        display: block;
+    }
+   
+   }
+ }
