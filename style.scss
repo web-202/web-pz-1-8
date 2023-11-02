@@ -1,0 +1,96 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #181818;
+    overflow: hidden;
+    align-items: center;
+    color: whitesmoke;
+    padding: 15px 15px;
+}
+.cont{margin: 0px 50px;}
+.nav{
+    display: flex;
+    width: 100%;
+}
+a{
+    color: whitesmoke;
+}
+.megogo{
+    font-size: 25px;
+  
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin: 0px 25px;
+}
+.menu a{
+    margin: 0px 15px;
+}
+.btn{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    
+}
+.btn li{
+    margin: 0 25px;
+}
+.border{
+    border: 0.5px solid whitesmoke;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+.slider-cont {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+.wedgets{
+    width: 100%;
+    background: rgb(200, 200, 200);
+
+}
+.carts{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.cart img{
+    padding: 0px 20px;
+}
+.carts-news{
+    display: flex;
+}
+.cart-news img{
+    width: 300px;
+    
+}
+.cart-news{
+    margin: 0 12px;
+}
+.cart-news h1{
+    font-size: 20px;
+}
+.seo{
+    margin-top: 40px;
+}
+.h1-text{
+    margin-bottom: 15px;
+}
